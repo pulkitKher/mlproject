@@ -16,7 +16,7 @@ app = application
 def indec():
     return render_template('index.html')
 
-@app.route('/predictdat',methods=['GET','POST'])
+@app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
     if request.method=='GET':
         return render_template('home.html')
