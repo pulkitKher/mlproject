@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.Pipeline.predict_piepline import CustomData,PredictPipeline
+from flask import redirect,url_for
 
 
 application=Flask(__name__)
@@ -14,7 +15,7 @@ app = application
 
 @app.route('/')
 def indec():
-    return render_template('index.html')
+    return redirect(url_for('predict_datapoint'))
 
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
