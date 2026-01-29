@@ -1,0 +1,3 @@
+Gender,Race/Ethnicity,Parental Education,Lunch,Test Preparation Course,Reading Score,Writing Score,output,timestamp
+female,group C,associate's degree,standard,completed,84,82,Predicted Math Score: 71.18,2026-01-29 16:31:57.966458
+male,group C,associate's degree,free/reduced,completed,84,82,Predicted Math Score: 80.73,2026-01-29 16:34:42.782923
